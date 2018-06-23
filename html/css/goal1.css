@@ -44,7 +44,7 @@ ul,ol,li{
 }
 .tou1{
 	width: 100%;
-	height: 80px;
+	height: 86px;
 }
 .tou1 img{
 	margin-left: 40px;
@@ -52,7 +52,16 @@ ul,ol,li{
 }
 .tou1 .nav1{
 	float: right;
-	margin-right: 32px;
+	margin-right: 50px;
+	height: 60px;
+	font-size:20px;
+}
+.nav1 a:hover{
+	color: #f3aa9d;
+}
+.nav1 li:hover .hide{
+    display:block;
+    position: relative;
 }
 .tou1 .nav1>li{
 	width: 110px;
@@ -60,9 +69,19 @@ ul,ol,li{
 	text-align:center;
 	float: left;
 }
-.tou1 .nav1 a{
-	padding-bottom: 26px;
+.nav1 .hide{
+	display: none;
+	position: absolute;
+	top:7px;
+}
+.nav1 .gu{
 	border-bottom:4px solid #e8420a;
+}
+.hide a:hover{
+	color: #f3aa9d;
+}
+.nav1 .hide li{
+	background-color: #f5f6f5;
 }
 
 .all{
