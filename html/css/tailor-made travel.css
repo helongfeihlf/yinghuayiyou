@@ -95,6 +95,12 @@ ul,ol,li{
 	line-height:75px;
 	border-bottom:3px solid #e8420a;
 }
+.head a{
+	color:black;
+}
+a:hover{
+	color:#e8420a;
+}
 /*head头部结束*/
 /*预约开始*/
 .box{
